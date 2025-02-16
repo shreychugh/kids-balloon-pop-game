@@ -7,11 +7,6 @@ body {
   background: #f0f0f0;
 }
 
-.app {
-  text-align: center;
-  font-family: Arial, sans-serif;
-}
-
 .balloon {
   font-size: 5rem;
   cursor: pointer;
@@ -29,6 +24,6 @@ body {
 }
 
 .score-board {
+  font-size: 2rem;
   margin: 20px;
-  font-size: 1.5rem;
 }
