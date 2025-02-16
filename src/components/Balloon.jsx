@@ -7,6 +7,7 @@ function Balloon({ onPop }) {
     if (!isPopped) {
       setIsPopped(true);
       onPop();
+      setTimeout(() => setIsPopped(false), 1000);
     }
   };
 
