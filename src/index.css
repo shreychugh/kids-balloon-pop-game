@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f0f0f0;
+}
+
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.balloon {
+  font-size: 5rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.balloon:hover {
+  transform: scale(1.1);
+}
+
+.balloon.popped {
+  transform: scale(0);
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.score-board {
+  margin: 20px;
+  font-size: 1.5rem;
+}
